@@ -1,0 +1,180 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@angela-kelia 
+angela-kelia
+/
+angela-kelia.github.io
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+angela-kelia.github.io/French.html
+@angela-kelia
+angela-kelia Create French.html
+Latest commit 93f0b70 9 minutes ago
+ History
+ 1 contributor
+151 lines (120 sloc)  4.7 KB
+  
+<head>
+<style>
+body {
+	font-family: "arial";
+	margin: 50px;
+	background-color: #e6d5d5;
+}
+
+	
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+	
+h1 {
+	color: darkblue;
+	font-size: 60px;
+	text-align: center;
+	font-weight: bolder;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+/*J'ai attribué des règles pour la police du texte du titre h1 et je leur ai attribué une taille de 60px, une couleur bleu foncé et un caractère gras.*/
+}
+
+h2 {
+	text-align: left;
+	font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h3 {
+	font-style: inherit;
+	font-size: 16px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+p {
+	color: black;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: medium;
+	text-align: justify;
+}
+
+/* Design responsif pour les natels */
+[class*="col-"] {
+  width: 100%;
+}
+	
+.header {
+  background-color: #B79DB1;
+  color: #ffffff;
+  padding: 15px;
+}	
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+	
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #C19FC5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}	
+
+.menu li:hover {
+  background-color: #C19FC5;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+	
+</style>
+</head>
+
+<html>
+  <body>
+		
+		<div class="header">
+			<h1>Bienvenue</h1>
+		</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>AntConc</li>
+      <li>HTML/CSS</li>
+    </ul>
+  </div>
+
+  <p>The page is still under construction. YOu may find some parts untranslated.</p>
+	  <div class="col-6 col-s-9">
+		<h2>Résultats de notre analyse avec AntConc</h2>
+			<p>Sur cette page, je vous présente les résultats de mon analyse de corpus pour le travail final de notre cours de TIC (Technologies de l'information et de la communication).</p>
+	  </div>
+	
+	<div class="col-3 col-s-12">
+    		<div class="aside">
+		<h3>AntConc</h3>
+			<p>AntConc est un concordancier. C'est un outil qui permet d'analyser des corpus.</p>
+			<p>Malgré ses nombreux avantages, il a également des inconvénients que nous vous présentons brièvement</p>       
+			<p>La dimension du multilinguisme n'est pas gérée. Le problème avec AntConc, c'est qu'il ne fait qu'une analyse morphologique.</p>
+			<p>Il n'ya pas d'analyse morpho-syntaxique, ce qu est typique de la plupart des concordanciers. Cela peut être une limite en termes de gestion du multilinguisme. </p>
+      <p>Comme nous l'avons constaté avec la version éwé du terme "rédemption", la graphie du terme ne permettait pas à AntConc de la trouver et nous avons dû passer par un autre moyen pour trouver le terme parallèle.</p>
+      <p>Parfois, en lançant certaines recherches, nous avons dû attendre longtemps ; ceci prouve que la gestion des graphes et requêtes complexes par AntConc n'est pas idéale.Ce qui est l'inverse d'un outil tel que Unitex Gramalab qui permet de gérer les graphes.</p>
+		
+     <h3>Results</h3> 
+          
+    <p>Nous étions partis de l'hypothèse que certains mots bibliques étaient beaucoup plus fréquents que d'autres dans un contexte religieux.</p>
+          <p>Toutefois, suite à notre analyse, nous nous sommes rendu compte que ce n'était pas le cas</p>
+    <p>We see only two words from our list appearing, but even then they do not appear at the top of the list other than in 4th position, three times with the term "blood" and in 33rd position, once with the term "jesus", "sin" in 27th position and once.</p>
+          <p>In English, there is already a difference: "blood" appears in 16th position and two times; "jesus" in 42nd position once and "jerusalem", in 43rd position once.</p>
+          <p>In Spanish, "sangre" (blood) appears in 10th position for a frequency of two times; "jesús" in 43rd position for a frequency of one time followed by "jerusalén" in 44th position, also for a frequency of one time.</p>
+          <p>Finally, in Ewe, "yesu" appears in 34th position for 11 times; "yerusalem" appears twice in 120th position; "ʋu" appears once in 181st position. A difference appears here, we find the word "luʋɔ" (soul) once in the 352nd position; "gbedodoɖae"(prayer) appears once in the 394th position.</p>
+          <p>And "Gbɔgbɔ" in 390th position once.</p>
+          <p>Remember that "ɖeɖe" is polysemous, which skews our result a bit in this case.</p>
+    </div>
+  	</div>
+</div>
+  
+ 
