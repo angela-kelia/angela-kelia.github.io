@@ -16,3 +16,6 @@ _Voici quelques informations utiles au cas où vous souhaiteriez **me contacter*
 ✉️ akouele.kpakpo@etu.unige.ch
 
 _Et pour plus d'informations sur mon **Master**, vous pouvez vous rendre sur ce lien :_ [MATIM](https://www.unige.ch/fti/fr/enseignements/ma-tim/)
+
+Je vous présente également sous l'onglet "Travail Final", les résultats de mon analyse de corpus.
+Il s'agit de corpus tirer du nouveau testament de la bible, en _français, anglais, espahnol et éwé_. 
